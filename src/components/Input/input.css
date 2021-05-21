@@ -1,0 +1,21 @@
+.form-group{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.form-group label{
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+input.form-control{
+  height: 40px;
+  border-radius: 6px;
+  border: 1px solid #CED4DA;
+  font-size: 18px;
+  outline: none;
+  padding-left: 10px;
+}
+input.form-control:focus{
+box-shadow: 0px 0px 3px 3px rgba(67, 149, 226, 0.3);
+}

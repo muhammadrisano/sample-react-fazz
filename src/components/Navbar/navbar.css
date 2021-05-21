@@ -1,0 +1,29 @@
+nav{
+  background-color: gray;
+  height: 60px;
+  width: 100%;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-bottom: 0px;
+}
+nav ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  list-style: none;
+  height: 100%;
+  align-items: center;
+}
+nav ul li{
+  padding: 10px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+nav ul li a.active{
+  color: blue;
+}

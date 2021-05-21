@@ -1,0 +1,22 @@
+.btn{
+  padding: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 6px;
+  border: 1px solid grey;
+  margin: 2px;
+  cursor: pointer;
+  outline: none;
+}
+.primary{
+  background-color: #0D78F9;
+  color: #fff;
+}
+.info{
+background-color: #1AA2B8;
+color: #fff;
+}
+.warning{
+  background-color: #FFC23D;
+  color: #212529;
+}
