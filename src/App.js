@@ -1,4 +1,4 @@
-import Route from './configs/Router'
+import Route from './configs/router'
 
 function App() {
   return (

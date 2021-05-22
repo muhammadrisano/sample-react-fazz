@@ -10,8 +10,8 @@ function Router() {
     <BrowserRouter>
         <Navbar/>
         <Route exact path="/" component={Home}/>
-        <Route exact path="/add" component={Add} />
-      <Route exact path="/edit/:id" component={Edit} />
+        <Route path="/add" component={Add} />
+        <Route path="/edit/:id" component={Edit} />
     </BrowserRouter>
   )
 }
