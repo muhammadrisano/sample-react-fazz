@@ -1,7 +1,8 @@
+import Router from './configs/router'
 
 function App() {
   return (
-    <div>halaman app</div>
+    <Router/>
   );
 }
 
